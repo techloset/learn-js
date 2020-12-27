@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="output"/>
+    <table>
+        <tr>
+            <td><button onclick="onClickHandler(1)">1</button></td>
+            <td><button onclick="onClickHandler(2)">2</button></td>
+            <td><button>3</button></td>
+            <td><button onclick="onClickHandler('*')">*</button></td>
+        </tr>
+
+        <tr>
+            <td><button>4</button></td>
+            <td><button onclick="onClickHandler(5)">5</button></td>
+            <td><button>6</button></td>
+            <td><button>+</button></td>
+        </tr>
+
+        <tr>
+            <td><button>7</button></td>
+            <td><button>8</button></td>
+            <td><button>9</button></td>
+            <td><button>-</button></td>
+        </tr>
+
+        <tr>
+            <td><button>0</button></td>
+            <td><button>.</button></td>
+            <td><button>=</button></td>
+            <td><button>/</button></td>
+        </tr>
+    </table>
+
+    <script>
+        function onClickHandler(num){
+        var output = document.getElementById("output").value;
+        document.getElementById("output").value = output + num;
+        }
+    </script>
+</body>
+</html>

@@ -209,3 +209,5 @@ var userName = document.getElementById("userName").value;
 var output = `Welcome, ${userName}!`;
 document.getElementById("output").innerHTML = output;
 } 
+
+var tagName = document.getElementById("mainHeading");
