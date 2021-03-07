@@ -30,20 +30,62 @@ let checkAtt = pTagMyClass.hasAttribute('class');
 let getAttributes = pTagMyClass.attributes
 pTagMyClass.setAttribute('','')
 
-var myTextVar = 'Naveed';
+{/* <h1> </h1>
+var myTextVar = 'Naveed'; */}
 
-//new element
-var emptyDiv = document.getElementById(`emptyDiv`);
-emptyDiv.innerHTML = `<p>${myTextVar}</p>`
+// //new element
+// var emptyDiv = document.getElementById(`emptyDiv`).innerHTML;
+// emptyDiv.innerHTML = `<p>${myTextVar}</p>`
 
-var pTag = 
+// var pTag = 
 
-emptyDiv.appendChild(pTag);
+// emptyDiv.appendChild(pTag);
 
 
 
 
 // Object
+// background 
+// var brandName = 'honda'
+// 0 mean brandname
+var cars = [{
+    brandName: 'honda',
+    color:'white',
+    model: '2010',
 
+}, {
+    brandName: 'honda',
+    color:'white',
+    model: [],
 
+},{
+    brandName: 'honda',
+    color:{
 
+    },
+    model: '2010',
+
+}]
+
+var car = {
+    brandName: 'honda',
+    color:'white',
+    model: '2010',
+
+}
+
+var car1 = {
+    brandName: 'honda',
+    color:'white',
+    model: '2010',
+
+}
+var car3 = {
+    brandName: 'honda',
+    color:'white',
+    model: '2010',
+
+}
+\
+
+cars[0].brandName
